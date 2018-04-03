@@ -1,4 +1,4 @@
-package tba.jihe;
+package cc.collection;
 
 import java.util.HashSet;
 

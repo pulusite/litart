@@ -1,4 +1,4 @@
-package tba.bingfa;
+package cc.concurrency;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,4 +1,4 @@
-package tba.bingfa;
+package cc.concurrency;
 
 /**
  * Created by dongzhang on 5/5/17.

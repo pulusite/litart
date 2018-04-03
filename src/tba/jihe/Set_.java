@@ -1,4 +1,4 @@
-package tba.jihe;
+package cc.collection;
 
 /**
  * Created by dongzhang on 5/16/17.

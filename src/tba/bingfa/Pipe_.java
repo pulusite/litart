@@ -1,4 +1,4 @@
-package tba.bingfa;
+package cc.concurrency;
 
 import java.io.IOException;
 import java.io.PipedReader;
