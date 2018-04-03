@@ -14,6 +14,6 @@ public class ClassLoader_ {
         ClassLoader classLoader0 = launcher.getClassLoader();          //获取类加载器ClassLoader用来加载class到内存来
 
         ClassLoader classloader1 = launcher.getClassLoader();//取得AppClassLoader类
-        classloader1.loadClass("org.luanlouis.jvm.load.Main");//加载自定义类
+        classloader1.loadClass("tba.jvm.ClassLoader_");//加载自定义类
     }
 }
