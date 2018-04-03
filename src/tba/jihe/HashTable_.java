@@ -1,4 +1,4 @@
-package cc.collection;
+package tba.jihe;
 
 import java.util.Hashtable;
 

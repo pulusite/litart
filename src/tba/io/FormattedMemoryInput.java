@@ -1,4 +1,4 @@
-package cc.io;
+package tba.io;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
