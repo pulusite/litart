@@ -11,8 +11,7 @@ public class AnnotationParsing {
         try {
             for (Method method : AnnotationParsing.class.getClassLoader().loadClass(("tba.anno.AnnotationExample")).getMethods()) {
                 // checks if MethodInfo annotation is present for the method
-                if (method
-                        .isAnnotationPresent(tba.anno.MethodInfo.class)) {
+                if (method.isAnnotationPresent(tba.anno.MethodInfo.class)) {
                     try {
                         // iterates all the annotations available in the method
                         for (Annotation anno : method.getDeclaredAnnotations()) {
