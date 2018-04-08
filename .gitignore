@@ -3,6 +3,7 @@
 #过滤文件
 *.xml
 flag.iml
+*.iml
 
 
 #过滤文件夹
