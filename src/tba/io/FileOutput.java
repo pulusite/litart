@@ -6,7 +6,7 @@ import java.io.*;
  * Created by dongzhang on 5/21/17.
  */
 public class FileOutput {
-    static String file = "FileOutput.out";
+    static String file = "ioc.xml";
 
     public static void main(String[] args) throws Exception{
         BufferedReader in = new BufferedReader(new StringReader(BufferedReader_.read("")));
