@@ -1,5 +1,6 @@
 package tba.common;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -7,6 +8,12 @@ import java.util.Date;
  */
 public class DateDemo {
     public static void main(String[] args) {
+        long currentTime = System.currentTimeMillis();
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy年-MM月dd日-HH时mm分ss秒");
+        Date date = new Date(currentTime);
+        System.out.println(formatter.format(date));
+
+
         Date afternoon = new Date();
 
         Date now = new Date();
