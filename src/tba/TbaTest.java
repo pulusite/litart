@@ -28,6 +28,8 @@ public class TbaTest {
         }
     }
     public static void main(String[] args) {
+        System.out.println(new BigDecimal("100.5").divide(new BigDecimal(6.5867),2).multiply(new BigDecimal(100)).longValue());
+
         List<Person> list=new ArrayList<>();
         Person p1=new Person(1,"n1");
         Person p2=new Person(2,"n2");
