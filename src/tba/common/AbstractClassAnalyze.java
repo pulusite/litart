@@ -1,9 +1,9 @@
-package tba.basic;
+package tba.common;
 
 /**
  * Created by zhangdong on 4/1/18.
  */
-public  class AbstractClassAnalyze {
+public class AbstractClassAnalyze {
     public static boolean getState() throws Exception{
         throw new Exception();
     }
