@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by zhangdong on 2018/3/7.
  */
-public class ForeachAnalyze {
+public class Foreach_ {
     public static void main(String[] args) {
         Person p1=new Person(1,"mm");
         Person p2=new Person(2,"gg");

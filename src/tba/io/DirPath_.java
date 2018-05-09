@@ -7,7 +7,7 @@ import java.io.File;
  *
  * File 文件和目录路径名的抽象表示形式。
  */
-public class DirPathAnalyze {
+public class DirPath_ {
     public static void main(String[] args) throws Exception{
         File file=new File("file.txt");
         System.out.println(file.getPath());

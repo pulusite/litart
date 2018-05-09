@@ -5,7 +5,7 @@ import java.io.*;
 /**
  * Created by dongzhang on 5/21/17.
  */
-public class FileOutput {
+public class FileOutput_ {
     static String file = "ioc.xml";
 
     public static void main(String[] args) throws Exception{

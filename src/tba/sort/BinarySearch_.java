@@ -3,7 +3,7 @@ package tba.sort;
 /**
  * Created by dongzhang on 7/6/17.
  */
-public class BinarySearch {
+public class BinarySearch_ {
     public static int binarySearch(int[] nums, int low,int high,int x) {
         while (low <= high) {
             int mid = (low + high) / 2;
