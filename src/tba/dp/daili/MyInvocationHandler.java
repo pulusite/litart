@@ -16,7 +16,9 @@ public class MyInvocationHandler implements InvocationHandler {
     }
 
     public Object getProxy(){
-        return Proxy.newProxyInstance(Thread.currentThread().getContextClassLoader(), target.getClass().getInterfaces(),this);
+        return Proxy.newProxyInstance(Thread.currentThread().getContextClassLoader(),
+                target.getClass().getInterfaces(),
+                this);
     }
 
     public Object invoke(Object proxy, Method methnd, Object[] args) throws Throwable {
