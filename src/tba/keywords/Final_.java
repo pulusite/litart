@@ -3,22 +3,22 @@ package tba.keywords;
 /**
  * Created by dongzhang on 4/8/17.
  */
-public class FinalExample {
+public class Final_ {
     int i;
     final int j;
-    static FinalExample obj;
+    static Final_ obj;
 
-    public FinalExample(){
+    public Final_(){
         i=1;
         j=2;
     }
 
     public static void writer(){
-        obj=new FinalExample();
+        obj=new Final_();
     }
 
     public static void reader(){
-        FinalExample object=obj;
+        Final_ object=obj;
         int a=object.i;
         int b=object.j;
     }

@@ -1,8 +1,29 @@
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by zhangdong on 2017/11/15.
  */
 public class Test {
     public static void main(String[] args) {
+        System.out.println("1f713261aa7f4e4f42dbd3f906f2ebb2".length());
+
+
+        System.out.println(5/3);
+//        List list=new ArrayList();
+//        list.add("0");
+//        list.subList(0,3).clear();
+//        System.out.println(list.size());
+
+
+        File file=new File("D:/NFS/order/1.txt");
+        System.out.println(file.exists());
+
+
+        String url="11_2626226727272";
+        String s=url.substring(0,url.lastIndexOf("_"));
+        System.out.println(url);
         System.out.println("ubuntu is awesome");
     }
 

@@ -1,4 +1,4 @@
-package tba.shejimoshi.mubanfangfa;
+package tba.dp.mubanfangfa;
 
 /**
  * Created by zhangdong on 2018/4/10.

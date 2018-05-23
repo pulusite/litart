@@ -1,4 +1,4 @@
-package tba.shejimoshi.daili;
+package tba.dp.daili;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

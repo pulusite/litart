@@ -1,4 +1,4 @@
-package tba.xiangmu;
+package tba.work;
 
 import java.util.Random;
 

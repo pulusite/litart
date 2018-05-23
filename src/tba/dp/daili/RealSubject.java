@@ -1,4 +1,4 @@
-package tba.shejimoshi.daili;
+package tba.dp.daili;
 
 public class RealSubject implements Subject{
     @Override

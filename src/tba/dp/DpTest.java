@@ -1,4 +1,4 @@
-package tba.shejimoshi;
+package tba.dp;
 
 public class DpTest {
 }
