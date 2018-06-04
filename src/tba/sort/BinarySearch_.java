@@ -18,4 +18,10 @@ public class BinarySearch_ {
         return -1;
     }
 
+    /**
+     *
+     *   方法结束后，left为当前插入数字所待坑位！
+     *
+     * **/
+
 }

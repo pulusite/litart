@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
  * Created by zhangdong on 2018/3/30.
  * 非阻塞队列
  */
-public class ConcurrentLinkedQueueAnalyze {
+public class ConcurrentLinkedQueue_ {
     private static ConcurrentLinkedQueue<Integer> queue = new ConcurrentLinkedQueue<Integer>();
     private static int count = 2; // 线程个数
     //CountDownLatch，一个同步辅助类，在完成一组正在其他线程中执行的操作之前，它允许一个或多个线程一直等待。
@@ -18,7 +18,7 @@ public class ConcurrentLinkedQueueAnalyze {
     public static void main(String[] args) throws InterruptedException {
         long timeStart = System.currentTimeMillis();
         ExecutorService executorService = Executors.newFixedThreadPool(4);
-        ConcurrentLinkedQueueAnalyze.offer();
+        ConcurrentLinkedQueue_.offer();
         for (int i = 0; i < count; i++) {
             executorService.submit(new Poll());
         }

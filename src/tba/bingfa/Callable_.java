@@ -10,7 +10,7 @@ import java.util.concurrent.*;
       可返回值的任务必须实现Callable接口，类似的，无返回值的任务必须Runnable接口。
       执行Callable任务后，可以获取一个Future的对象，在该对象上调用get就可以获取到Callable任务返回的Object了。
  */
-public class CallableAnalyze {
+public class Callable_ {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         //创建一个线程池
         ExecutorService pool = Executors.newFixedThreadPool(2);
