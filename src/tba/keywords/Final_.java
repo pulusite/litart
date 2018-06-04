@@ -1,25 +1,24 @@
 package tba.keywords;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
 /**
  * Created by dongzhang on 4/8/17.
  */
 public class Final_ {
-    int i;
-    final int j;
-    static Final_ obj;
+    private final List foo;
 
-    public Final_(){
-        i=1;
-        j=2;
+    public Final_()
+    {
+        foo = new ArrayList();
+        foo.add("foo"); // Modification-1
     }
-
-    public static void writer(){
-        obj=new Final_();
-    }
-
-    public static void reader(){
-        Final_ object=obj;
-        int a=object.i;
-        int b=object.j;
+    public static void main(String[] args)
+    {
+        Final_ t = new Final_();
+        t.foo.add("bar"); // Modification-2
+        System.out.println("print - " + t.foo);
     }
 }

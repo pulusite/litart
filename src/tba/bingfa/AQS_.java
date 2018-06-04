@@ -8,7 +8,7 @@ import java.util.concurrent.locks.Lock;
 /**
  * Created by zhangdong on 4/1/18.
  */
-public class AQSAnalyze implements Lock{
+public class AQS_ implements Lock{
     private static class Sync extends AbstractQueuedSynchronizer{
         protected boolean isHeldExclusively(){
             return getState()==1;
