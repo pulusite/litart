@@ -30,4 +30,17 @@ public class Swap_ {
         y = x - y;
         x = x - y;
     }
+
+    public void swap(int a,int b){
+        int tmp=a;
+        a=b;
+        b=tmp;
+        System.out.println("a="+a+",b="+b);
+    }
+    @Test
+    public void test(){
+        int a=1,b=2;
+        swap(a,b);
+        System.out.println("a="+a+",b="+b);
+    }
 }

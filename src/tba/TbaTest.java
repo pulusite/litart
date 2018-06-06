@@ -28,6 +28,11 @@ public class TbaTest {
         }
     }
     public static void main(String[] args) {
+        String s=null;
+        int lt=s.length();
+        int[] nums={};
+        int len=nums.length;
+
         List a = new ArrayList();
 
         a.add(5);
