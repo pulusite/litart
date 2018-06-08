@@ -12,6 +12,8 @@ public class FileReadWriteCopy {
         file.fileRead(curPath);
 
         file.fileWrite(curPath);
+
+        file.fileCopy(curPath);
     }
     public void fileRead(String path){
         // 构建指定文件
@@ -44,7 +46,7 @@ public class FileReadWriteCopy {
         try {
             // 根据文件创建文件的输出流
             out = new FileOutputStream(file);
-            String message = "我是好人。";
+            String message = "我是好人。111";
             // 把内容转换成字节数组
             byte[] data = message.getBytes();
             // 向文件写入内容
@@ -63,7 +65,7 @@ public class FileReadWriteCopy {
 
     public void fileCopy(String path){
         // 构建指定文件
-        File file = new File("E:" + File.separator + "hello.txt");
+        File file = new File(path + File.separator + "hello.txt");
         OutputStream out = null;
         try {
             // 根据文件创建文件的输出流

@@ -60,7 +60,7 @@ public class Permutation_Dictionary {
         return ans;
     }
 
-
+    //
     public ArrayList<String> permutation(String str) {
         ArrayList<String> result = new ArrayList<String>();//根据返回类型需要
         if(str==null||str.length()==0){
