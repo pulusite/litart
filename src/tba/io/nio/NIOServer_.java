@@ -1,4 +1,4 @@
-package tba.nio;
+package tba.io.nio;
 
 import java.net.InetSocketAddress;
 import java.nio.channels.SelectionKey;
@@ -9,7 +9,7 @@ import java.util.Iterator;
 /**
  * Created by dongzhang on 5/21/17.
  */
-public class NIOServer {
+public class NIOServer_ {
     private Selector selector;
 
     public void initServer(int port) throws Exception{

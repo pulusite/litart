@@ -1,10 +1,10 @@
-package tba.nio;
+package tba.io.nio;
 
 import java.nio.ByteBuffer;
 /**
  * Created by dongzhang on 5/4/17.
  */
-public class BufferDemo {
+public class Buffer_ {
     public void test2(){
         String str = "abcde";
         ByteBuffer buf = ByteBuffer.allocate(1024);
@@ -68,7 +68,7 @@ public class BufferDemo {
     }
 
     public static void main(String[] args) {
-        BufferDemo bufferDemo = new BufferDemo();
+        Buffer_ bufferDemo = new Buffer_();
         bufferDemo.test1();
     }
 }
