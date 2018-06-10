@@ -1,6 +1,4 @@
-package tba.zd_exercise;
-
-import org.junit.Test;
+package tba.zd;
 
 /**
  * Created by zhangdong on 6/3/18.

@@ -7,7 +7,7 @@ import java.util.concurrent.FutureTask;
 /**
  * Created by dongzhang on 6/3/17.
  */
-public class FutureTaskAnalyze implements Callable<Integer> {
+public class FutureTask_ implements Callable<Integer> {
     @Override
     public Integer call() throws Exception {
         int i = 0;
@@ -18,8 +18,8 @@ public class FutureTaskAnalyze implements Callable<Integer> {
     }
 
     public static void main(String[] args) {
-        FutureTaskAnalyze futureTaskAnalyze = new FutureTaskAnalyze();
-        FutureTask<Integer> futureTask = new FutureTask<Integer>(futureTaskAnalyze);
+        FutureTask_ futureTask_ = new FutureTask_();
+        FutureTask<Integer> futureTask = new FutureTask<Integer>(futureTask_);
         for (int i = 0; i < 3; i++) {
             System.out.println(Thread.currentThread().getName()+" 的循环变量i的值"+i);
             if (i == 2){

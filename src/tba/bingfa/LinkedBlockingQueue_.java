@@ -7,7 +7,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 /**
  * Created by zhangdong on 2018/4/13.
  */
-public class LinkedBlockingQueueAnalyze {
+public class LinkedBlockingQueue_ {
     // TODO: queue是LinkedList对象时，程序会出错。
     //private static Queue<String> queue = new LinkedList<String>();
     private static Queue<String> queue = new LinkedBlockingQueue<String>();

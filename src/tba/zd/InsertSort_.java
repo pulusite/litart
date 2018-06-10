@@ -1,4 +1,4 @@
-package tba.zd_exercise;
+package tba.zd;
 
 import org.junit.Test;
 

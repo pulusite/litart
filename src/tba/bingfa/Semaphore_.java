@@ -27,7 +27,7 @@ public class Semaphore_ {
                     try {
                         s.acquire();
                         System.out.println("save data------");
-                        TimeUnit.SECONDS.sleep(10);
+                        TimeUnit.SECONDS.sleep(3);
                         s.release();
                     } catch (InterruptedException e) {
                     }

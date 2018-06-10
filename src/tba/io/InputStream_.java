@@ -5,14 +5,14 @@ import java.io.*;
 /**
  * Created by zhangdong on 2018/4/8.
  */
-public class InputStreamAnalyze {
+public class InputStream_ {
     public static void main(String[] args) throws Exception{
-        String curDir=System.getProperty("user.dir");
+        String curDir=System.getProperty("user.dir")+File.separator+"resource"+File.separator;
         //FileInputStream
-        InputStream iss=InputStreamAnalyze.class.getClassLoader().getResourceAsStream("io.txt");
-        InputStream fin = new FileInputStream(curDir+File.separator+"resource"+File.separator+"io.txt");
+        InputStream iss=InputStream_.class.getClassLoader().getResourceAsStream("io.txt");
+        InputStream fin = new FileInputStream(curDir+"io.txt");
 
-        File f = new File("io.txt");
+        File f = new File(curDir+"io.txt");
         InputStream out = new FileInputStream(f);
         //ByteArrayInputStream
         //DataInputStream
