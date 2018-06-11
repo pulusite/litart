@@ -1,4 +1,4 @@
-package tba.sort;
+package tba.mianshi.sort;
 
 import org.junit.Test;
 

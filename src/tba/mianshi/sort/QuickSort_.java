@@ -1,4 +1,4 @@
-package tba.sort;
+package tba.mianshi.sort;
 
 /**
  * Created by dongzhang on 7/6/17.
