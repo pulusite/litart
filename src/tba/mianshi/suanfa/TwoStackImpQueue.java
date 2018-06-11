@@ -1,4 +1,4 @@
-package tba.mianshi;
+package tba.mianshi.suanfa;
 
 import java.util.Stack;
 

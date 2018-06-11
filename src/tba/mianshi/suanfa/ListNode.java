@@ -1,4 +1,4 @@
-package tba.mianshi;
+package tba.mianshi.suanfa;
 
 /**
  * Created by zhangdong on 2017/7/18.
