@@ -1,4 +1,4 @@
-package zd_exercise;
+package zd;
 
 import org.junit.Test;
 
