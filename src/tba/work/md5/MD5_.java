@@ -1,4 +1,4 @@
-package tba.md5;
+package tba.work.md5;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

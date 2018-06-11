@@ -9,6 +9,8 @@ public class ClassLoader_ {
         ClassLoader classLoader = ClassLoader_.class.getClassLoader();
         System.out.println(classLoader);
 
+        System.out.println(System.getProperty("sun.boot.class.path"));
+
 
         sun.misc.Launcher launcher = sun.misc.Launcher.getLauncher(); //获取Java启动器
         ClassLoader classLoader0 = launcher.getClassLoader();          //获取类加载器ClassLoader用来加载class到内存来
