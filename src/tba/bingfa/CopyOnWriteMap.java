@@ -5,6 +5,9 @@ import java.util.Map;
 
 /**
  * Created by zhangdong on 2018/6/11.
+ *
+ *   https://coolshell.cn/articles/11175.html
+ *
  */
 public abstract class CopyOnWriteMap<K, V> implements Map<K, V>, Cloneable {
     private volatile Map<K, V> internalMap;
