@@ -39,5 +39,6 @@ public class Reflect_ {
         People p=(People) clazz.newInstance();
         p.setName("张东");
         System.out.println(p.getName());
+
     }
 }

@@ -7,18 +7,22 @@ import org.junit.Test;
  */
 public class MergeSort_ {
     public int[] merge(int[] nums1,int[] nums2){
-        int len1=nums1.length,len2=nums2.length;
-        int[] res=new int[len1+len2];
+        int len1=nums1.length-1,len2=nums2.length-1;
+        int[] res=new int[len1+len2+2];
         int index1=0,index2=0,index=0;
         while (index1<len1 && index2<len2){
-            while (nums1[index1] <= nums2[index2]) {
+            if (nums1[index1] <= nums2[index2]) {
                 res[index++]=nums1[index1++];
-            }
-            while (nums1[index1]>nums2[index2]){
+            }else {
                 res[index++]=nums2[index2++];
             }
         }
-
+        while (index1<len1){
+            res[index++]=nums1[index1++];
+        }
+        while (index2<len2){
+            res[index++]=nums2[index2++];
+        }
         return res;
     }
 
