@@ -1,5 +1,6 @@
 package tba.io.nio;
 
+import java.io.File;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
@@ -9,9 +10,10 @@ import java.nio.channels.FileChannel;
  */
 public class FileChannel_ {
     public static void main(String[] args) throws Exception{
-        System.out.println(FileChannel_.class.getClassLoader().getResource("").getPath());
-        String curPath=FileChannel_.class.getClassLoader().getResource("").getPath()+"resource/";
-        RandomAccessFile aFile = new RandomAccessFile("nio.txt", "rw");
+//        String curPath=FileChannel_.class.getClassLoader().getResource("").getPath()+"resource/";
+        String filePath=System.getProperty("user.dir")+ File.separator+"resource/";
+
+        RandomAccessFile aFile = new RandomAccessFile(filePath+"nio.txt", "rw");
         FileChannel inChannel = aFile.getChannel();
 
         ByteBuffer buf = ByteBuffer.allocate(48);

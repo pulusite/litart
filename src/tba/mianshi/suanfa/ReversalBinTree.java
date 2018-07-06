@@ -56,6 +56,7 @@ public class ReversalBinTree {
         if (root == null) {
             return null;
         }
+
         final Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
 
@@ -97,10 +98,25 @@ public class ReversalBinTree {
 //    @Test
 //    public void test(){
 public static void main(String[] args) {
-        TreeNode root=new TreeNode(10);
-        root.left=new TreeNode(9);
-        root.right= new TreeNode(8);
-        reverseTreeDFS(root);
-        System.out.println(root);
+    TreeNode root=new TreeNode(10);
+    root.left=new TreeNode(9);
+    root.right= new TreeNode(8);
+    Queue<TreeNode> queue=new LinkedList<>();
+    queue.add(root);
+    TreeNode curNode;
+    while (!queue.isEmpty()){
+        // 删除队首元素
+        curNode = queue.remove();
+        // 输出队首元素的值
+        System.out.print(curNode.val + " ");
+        // 如果左子结点不为空，则左子结点入队
+        if (curNode.left != null) {
+            queue.add(curNode.left);
+        }
+        // 如果右子结点不为空，则左子结点入队
+        if (curNode.right != null) {
+            queue.add(curNode.right);
+        }
+    }
     }
 }

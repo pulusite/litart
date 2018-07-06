@@ -14,7 +14,7 @@ public class QuickSort_ {
     private static int partition(int[] arr,int low,int high){
         int privot=arr[low];//枢轴记录
         while (low<high){
-            //找到右边比privot大的值
+            //找到右边比 privot 大的值
             while (low<high && arr[high]>=privot) --high;
             arr[low]=arr[high];
             while (low<high && arr[low]<=privot) ++low;
