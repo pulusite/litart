@@ -1,3 +1,5 @@
+import tba.jihe.Person;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +9,16 @@ import java.util.List;
  */
 public class Test {
     public static void main(String[] args) {
+
+        String str="00_00_))_";
+        System.out.println(str.indexOf("_"));
+
+        System.out.println("BJCustomService".substring(0,2));
+
+        if (!"".equals(null)){
+            System.out.println("null");
+        }
+
         System.out.println("1f713261aa7f4e4f42dbd3f906f2ebb2".length());
 
 
@@ -25,6 +37,10 @@ public class Test {
         String s=url.substring(0,url.lastIndexOf("_"));
         System.out.println(url);
         System.out.println("ubuntu is awesome");
+
+        Person person=null;
+        System.out.println(person);
     }
+
 
 }

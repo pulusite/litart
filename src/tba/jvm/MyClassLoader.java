@@ -56,7 +56,9 @@ public class MyClassLoader extends ClassLoader {
         MyClassLoader mcl = new MyClassLoader();
         Class<?> clazz = Class.forName("People", true, mcl);
         Object obj = clazz.newInstance();
-
+        People people=(People) obj;
+        people.setName("Eric Zhang");
+        System.out.println(people);
         System.out.println(obj);
         System.out.println(obj.getClass().getClassLoader());//打印出我们的自定义类加载器
 
