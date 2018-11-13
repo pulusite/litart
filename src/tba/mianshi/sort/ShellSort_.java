@@ -5,14 +5,21 @@ package tba.mianshi.sort;
  */
 public class ShellSort_ {
     public static void shellSort(int[] nums){
-        int d=nums.length;
-        while (true){
-            d=d/2;
-            for (int x = 0; x < d; x++) {
-                for (int i = 0; i < nums.length; i++) {
-                    
+        int d = nums.length / 2;
+        int i;
+        int j;
+        int temp;
+        while (d >= 1) {
+            for (i = d; i < nums.length; i++) {
+                temp = nums[i];
+                j = i - d;
+                while (j >= 0 && nums[j] < temp) {
+                    nums[j + d] = nums[j];
+                    j = j - d;
                 }
+                nums[j + d] = temp;
             }
+            d = d / 2;
         }
     }
 }
