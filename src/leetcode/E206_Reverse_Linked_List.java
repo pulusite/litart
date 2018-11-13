@@ -10,15 +10,20 @@ public class E206_Reverse_Linked_List {
         if(head==null || head.next==null) return null;
 
         ListNode newHead=null;
-        while(head != null){
-            ListNode next = head.next;
-            head.next = newHead;
-            newHead = head;
-            head = next;
-        }
 
         return newHead;
     }
+
+    public ListNode reverseList1(ListNode head) {
+        if(head==null || head.next==null)
+            return head;
+        ListNode nextNode=head.next;
+        ListNode newHead=reverseList(nextNode);
+        nextNode.next=head;
+        head.next=null;
+        return newHead;
+    }
+
 
 
     public ListNode reverseList2(ListNode head) {
