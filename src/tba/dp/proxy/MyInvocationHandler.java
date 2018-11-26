@@ -1,4 +1,4 @@
-package tba.dp.daili;
+package tba.dp.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

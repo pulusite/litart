@@ -1,4 +1,4 @@
-package tba.dp.mubanfangfa;
+package tba.dp.templatemethod;
 
 /**
  * Created by zhangdong on 2018/4/10.

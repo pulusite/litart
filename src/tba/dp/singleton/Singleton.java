@@ -1,4 +1,4 @@
-package tba.dp.danli;
+package tba.dp.singleton;
 
 /**
  * Created by zhangdong on 2018/4/10.
