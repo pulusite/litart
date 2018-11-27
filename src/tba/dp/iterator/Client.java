@@ -3,7 +3,7 @@ package tba.dp.iterator;
 /**
  * Created by zhangdong on 2018/6/11.
  */
-public class IteTest {
+public class Client {
     public static void main(String[] args) {
         Aggregate aggregate=new ConcreteAggregate();
         aggregate.add("小明");

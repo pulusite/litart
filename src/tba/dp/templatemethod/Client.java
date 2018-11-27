@@ -3,7 +3,7 @@ package tba.dp.templatemethod;
 /**
  * Created by zhangdong on 2018/4/10.
  */
-public class TemplatePatternDemo {
+public class Client {
     public static void main(String[] args) {
 
         Game game = new Cricket();

@@ -30,6 +30,7 @@ public class ReentrantLock_ {
 
 
     public static void main(String[] args) {
-
+        ReentrantLock_ reentrantLock_=new ReentrantLock_();
+        reentrantLock_.reader();
     }
 }

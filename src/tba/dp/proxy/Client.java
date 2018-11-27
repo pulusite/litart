@@ -3,7 +3,7 @@ package tba.dp.proxy;
 /**
  * Created by dongzhang on 5/13/17.
  */
-public class DynamicProxyDemo {
+public class Client {
     public static void main(String[] args) {
         UserService userService = new UserServiceImpl();
 

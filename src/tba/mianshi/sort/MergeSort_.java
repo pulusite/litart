@@ -7,7 +7,7 @@ import org.junit.Test;
  */
 public class MergeSort_ {
     public void merge(int[] nums,int low,int mid,int high){
-        int[] tmp=new int[high-low+1];//申请一个辅助数组
+        int[] tmp=new int[high-low+1];// 申请一个辅助数组
         int i=low,j=mid+1,k=0;
         while (i<=mid && j<=high){
             if (nums[i]<=nums[j]){

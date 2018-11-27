@@ -1,4 +1,4 @@
-package tba.collection;
+package tba.jihe;
 
 import tba.jihe.Person;
 
