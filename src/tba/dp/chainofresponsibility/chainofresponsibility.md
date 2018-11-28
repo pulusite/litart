@@ -1,1 +1,1 @@
-![ChainOfResponsibility](../resource/ChainOfResponsibility.JPG "ChainOfResponsibility")
+![Image text](https://github.com/pulusite/litart/blob/master/resource/img/ChainOfResponsibility.JPG?raw=true)
