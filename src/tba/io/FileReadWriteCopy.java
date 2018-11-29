@@ -17,7 +17,7 @@ public class FileReadWriteCopy {
     }
     public void fileRead(String path){
         // 构建指定文件
-        File file = new File(path+ File.separator + "io.txt");
+        File file = new File(path+ File.separator + "io/io.txt");
         InputStream in = null;
         try {
             // 根据文件创建文件的输入流
@@ -41,7 +41,7 @@ public class FileReadWriteCopy {
 
     public void fileWrite(String path){
         // 构建指定文件
-        File file = new File(path + File.separator + "write.txt");
+        File file = new File(path + File.separator + "io/write.txt");
         OutputStream out = null;
         try {
             // 根据文件创建文件的输出流
@@ -65,7 +65,7 @@ public class FileReadWriteCopy {
 
     public void fileCopy(String path){
         // 构建指定文件
-        File file = new File(path + File.separator + "hello.txt");
+        File file = new File(path + File.separator + "io/hello.txt");
         OutputStream out = null;
         try {
             // 根据文件创建文件的输出流

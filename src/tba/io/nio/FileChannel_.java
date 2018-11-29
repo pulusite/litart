@@ -13,7 +13,7 @@ public class FileChannel_ {
 //        String curPath=FileChannel_.class.getClassLoader().getResource("").getPath()+"resource/";
         String filePath=System.getProperty("user.dir")+ File.separator+"resource/";
 
-        RandomAccessFile aFile = new RandomAccessFile(filePath+"nio.txt", "rw");
+        RandomAccessFile aFile = new RandomAccessFile(filePath+ "io/nio.txt", "rw");
         FileChannel inChannel = aFile.getChannel();
 
         ByteBuffer buf = ByteBuffer.allocate(48);

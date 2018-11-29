@@ -67,7 +67,7 @@ public class MemMapReadWrite {
 
     public static void main(String[] args) {
         try {
-            RandomAccessFile file = new RandomAccessFile("nio.txt","rw");
+            RandomAccessFile file = new RandomAccessFile("io/nio.txt","rw");
             FileChannel channel = file.getChannel();
             MappedByteBuffer buffer = channel.map(FileChannel.MapMode.READ_ONLY,0,channel.size());
             ByteBuffer buffer1 = ByteBuffer.allocate(1024);

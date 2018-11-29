@@ -93,7 +93,7 @@ public class File_ {
     //将标准输入的内容写入文件
     public void inToFile(String curPath) throws IOException {
         Scanner in = new Scanner(System.in);
-        FileWriter out = new FileWriter(curPath+"systemIn.log");
+        FileWriter out = new FileWriter(curPath+ "io/systemIn.log");
         String s;
         while (!(s = in.nextLine()).equals("Q")){
             out.write(s + "\n");
