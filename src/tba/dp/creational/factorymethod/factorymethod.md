@@ -1,0 +1,1 @@
+![Image text](https://github.com/pulusite/litart/blob/master/resource/img/Factory.JPG?raw=true)

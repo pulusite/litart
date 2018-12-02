@@ -15,6 +15,7 @@ public class CyclicBarrier_ {
                 try {
                     c.await();
                 } catch (Exception e) {
+
                 }
                 System.out.println(1);
             }
