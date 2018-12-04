@@ -22,6 +22,9 @@ http://my.csdn.net/uploads/201205/28/1338213169_8415.jpg
 聚合：聚合意味着一个对象拥有另一个对象或对另一个对象负责。
 相识：相识意味着一个对象仅仅知道另一个对象，比聚合要弱的关系
 
+类图：https://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html
+
+
 
 面向对象设计的原则：针对接口编程，而不是针对实现编程
 优先使用对象组合，而不是类继承
