@@ -16,6 +16,7 @@ public class ThreadLocal_ {
             new Thread(() -> {
                 for(int j = 0; j < 4; j++) {
                     innerClass.add(String.valueOf(j));
+
                     innerClass.print();
                 }
                 innerClass.set("hello world");
