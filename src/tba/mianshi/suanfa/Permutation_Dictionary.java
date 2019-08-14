@@ -22,7 +22,7 @@ public class Permutation_Dictionary {
     public List<List<Integer>> permute1(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         // Arrays.sort(nums); // not necessary
-        backtrack(list, new ArrayList<>(), nums);
+//        backtrack(list, new ArrayList<>(), nums);
         return list;
     }
 

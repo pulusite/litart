@@ -25,6 +25,7 @@ public class MyInvocationHandler implements InvocationHandler {
         System.out.println("-----before-----");
         Object result = methnd.invoke(target,args);
         System.out.println("-----after----");
+        System.out.println(result);
         return result;
     }
 
